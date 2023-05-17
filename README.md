@@ -1,4 +1,9 @@
-## Packet Sniffer
+# Packet Sniffer
+
+### Important
+This code is intended for educational and legitimate purposes only. It should be used responsibly and in accordance with applicable laws and regulations. The purpose of this code is to demonstrate network packet capturing and analysis techniques. Any misuse or illegal activities conducted using this code are strictly prohibited. The author of this code does not endorse or take responsibility for any unauthorized or malicious use of this code. Use it at your own risk and ensure that you comply with legal and ethical guidelines when utilizing this code for any purpose.
+
+### Project Description 
 This project is a packet sniffer and analyzer implemented in Python using the Scapy library. The script allows users to select a network interface from the available options on their system and captures packets flowing through that interface. It analyzes the captured packets to identify HTTP requests and potential login information. Whenever an HTTP request is detected, the script extracts the URL and prints it as an HTTP request. It also checks if the packet payload contains keywords related to login information and, if found, prints a message indicating possible username/password. Additionally, the script logs the captured packets to a file for further analysis. The project aims to provide a simple yet effective way to capture and analyze network packets, making it a valuable tool for network security and troubleshooting tasks.
 
 ### Working of Code:
